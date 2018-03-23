@@ -1,7 +1,10 @@
 import React from 'react'
+import ProfileContainer from "root/components/ProfileContainer";
 
 const App = (props) => (
-    <h1>Hello World!</h1>
+	<ProfileContainer
+		model={{id: 1}}
+	/>
 )
 
 export default App
